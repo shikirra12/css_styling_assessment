@@ -26,14 +26,21 @@ colors:
   color: orange;
   padding: orange;
 }
-.nav a {
-  border: white;
-  border-radius: 5px;
+nav a {
+  color: white;
+  border: 1px white solid;
+  border-radius: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-#page_content {
-  margin: 20px;
+#page_content section:nth-child(5) {
+  background-color: grey;
+  font-size: 20px;
+  margin: 10px;
 }
-h {
+h2 {
   color: blue;
 }
 a {
@@ -42,7 +49,7 @@ a {
 ul {
   font-weight: bold;
 }
-h2 {
+h2.table {
   border-top: solid grey 5px;
   padding: 20px;
 }
@@ -57,24 +64,35 @@ table, tr, td {
   border: 1px solid blue;
   padding: 15px;
 }
-form {
-  padding: grey;
-}
-}
 .name {
-  background-color: orange solid 30px;
+  width: 500px;
+  height: 100px;
+  color: white;
+  background-color: orange;
 }
 #first_name {
-  color: white;
+  background-color: white;
+  border-color: orange;
 }
 #last_name {
-  color: white;
+  background-color: white;
+  border-color: white;
 }
 .city_container {
-
+padding: 10px;
+text-align: left;
 }
 label {
   font-weight: bold;
+  padding: 10px;
+}
+#city {
+  border-color: grey;
+}
+#bio {
+    border: blue solid 1px;
+    background-color: white;
+    padding: 10px;
 }
 .submit_container {
 background-color: white;
